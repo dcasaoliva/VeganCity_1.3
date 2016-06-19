@@ -1,0 +1,35 @@
+-- phpMyAdmin SQL Dump
+-- version 4.1.14
+-- http://www.phpmyadmin.net
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 16-06-2016 a las 12:20:48
+-- Versión del servidor: 5.6.17
+-- Versión de PHP: 5.5.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `vegancity`
+--
+
+--
+-- Volcado de datos para la tabla `vc_posts`
+--
+
+INSERT INTO `vc_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
+(6, 1, '2016-06-01 15:33:27', '2016-06-01 15:33:27', '', 'Home', '', 'publish', 'closed', 'closed', '', 'home', '', '', '2016-06-16 09:38:41', '2016-06-16 09:38:41', '', 0, 'http://localhost/wordpress_vc/?page_id=6', 0, 'page', '', 0),
+(8, 1, '2016-06-01 16:28:52', '2016-06-01 16:28:52', '[contact-form-7 id="15" title="Add a place"]', 'Add a place', '', 'publish', 'closed', 'closed', '', 'add-a-place', '', '', '2016-06-16 09:39:00', '2016-06-16 09:39:00', '', 0, 'http://localhost/wordpress_vc/?page_id=8', 0, 'page', '', 0),
+(15, 1, '2016-06-01 19:06:34', '2016-06-01 19:06:34', '<p class="text-petit">The fields market with an asterisk (*) are required.</p>\r\n\r\n<p><span class="main_text">1. Name</span> (*)<br />\r\n    [text* NAME] </p>\r\n\r\n<p ><span class="main_text">2. Where is placed:</span> a) Mark it on the map (*)<br />\r\n[map* COORD zoom:13] </p>\r\n\r\n<p><span class="main_text">2. Where is placed:</span> b) Enter the exact address</p>\r\n<p>Street:(*) [text* STREET]</p>\r\n<p class="enlinia num">Number:(*) [number* SNUMBER min:0 max:999]</p>\r\n\r\n<p><span class="main_text">3. Upload a photo: (*)(max. file size 1MB / min. width 800px)</span><br/>\r\n[file file-field limit:1000000]\r\n</p> \r\n\r\n<p><span class="main_text">4. Phone number(*)</span><br/>[tel* PHONE]</p>\r\n\r\n<p><span class="main_text">5. E-mail</span> <br />\r\n    [email EMAIL] </p>\r\n\r\n<p><span class="main_text">6. Internet:</span><br/>\r\nWeb / blog: [url URL]\r\n<span class="grup_alinea">Facebook:  </span> [url FACEBOOK]\r\n<span class="grup_alinea2">Twitter: </span>   [url TWITTER]\r\n<span class="grup_alinea3">Other: </span>     [url OTHERSM]</span></br>\r\n\r\n\r\n<p><span class="main_text">7. Category:</span> (*)(Check at least one) <br />\r\n\r\n  <span class="grup_ambits">  [checkbox* CATEGORIES use_label_element "Restaurant" "Market" "Clothes shop" "Activism"  ]</span></p>\r\n\r\n<p></p>\r\n\r\n<p>[submit]\r\n</p>\nVeganCity: New PLACE added\nVeganCity <noreply@vegancity.esy.es>\nFrom: noreply@vegancity.esy.es\r\nSubject: VeganCity: New PLACE added\r\n\r\n\r\nNew PLACE added\r\n\r\n--\r\nThis e-mail was sent from a contact form on Vegan City (http://localhost/wordpress_vc)\nvegancityweb@gmail.com\n\n\n\n\n\nVegan City "[your-subject]"\nVegan City <bfreixes@gmail.com>\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Vegan City (http://localhost/wordpress_vc)\n[your-email]\nReply-To: bfreixes@gmail.com\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.\nThe date format is incorrect.\nThe date is before the earliest one allowed.\nThe date is after the latest one allowed.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe file is too big.\nThere was an error uploading the file.\nThe number format is invalid.\nThe number is smaller than the minimum allowed.\nThe number is larger than the maximum allowed.\nThe answer to the quiz is incorrect.\nYour entered code is incorrect.\nThe e-mail address entered is invalid.\nThe URL is invalid.\nThe telephone number is invalid.\ndemo_mode: on', 'Add a place', '', 'publish', 'closed', 'closed', '', 'contact-form-1', '', '', '2016-06-16 09:58:42', '2016-06-16 09:58:42', '', 0, 'http://localhost/wordpress_vc/?post_type=wpcf7_contact_form&#038;p=15', 0, 'wpcf7_contact_form', '', 0),
+(22, 1, '2016-06-02 10:50:13', '2016-06-02 10:50:13', '<div id="wrap_rates">\r\n<p class="main_text">Best<br />\r\n    [text* r_best maxlength:70] </p>\r\n\r\n\r\n<p class="main_text">Not best<br />\r\n    [text* r_notbest maxlength:70] </p>\r\n\r\n[checkbox* r_rating exclusive "1" "2" "3" "4" "5"]\r\n\r\n[dynamichidden r_postid "CF7_get_post_var key=''ID''"]\r\n\r\n<p>[submit "Rate Place"]</p>\r\n</div>\nVeganCity: New RATE added\nVeganCity <noreply@vegancity.esy.es>\nFrom: noreply@vegancity.esy.es\r\nSubject: VeganCity: New RATE added\r\n\r\nNew RATE added\r\n\r\n--\r\nThis e-mail was sent from a contact form on Vegan City (http://localhost/wordpress_vc)\nvegancityweb@gmail.com\n\n\n\n\n\nVegan City "[your-subject]"\nVegan City <bfreixes@gmail.com>\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Vegan City (http://localhost/wordpress_vc)\n[your-email]\nReply-To: bfreixes@gmail.com\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.\nThe date format is incorrect.\nThe date is before the earliest one allowed.\nThe date is after the latest one allowed.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe file is too big.\nThere was an error uploading the file.\nThe number format is invalid.\nThe number is smaller than the minimum allowed.\nThe number is larger than the maximum allowed.\nThe answer to the quiz is incorrect.\nYour entered code is incorrect.\nThe e-mail address entered is invalid.\nThe URL is invalid.\nThe telephone number is invalid.\ndemo_mode: on\r\non_sent_ok: "document.getElementById(''wrap_rates'').style.display = ''none'';"', 'Rate Place', '', 'publish', 'closed', 'closed', '', 'untitled', '', '', '2016-06-16 09:59:51', '2016-06-16 09:59:51', '', 0, 'http://localhost/wordpress_vc/?post_type=wpcf7_contact_form&#038;p=22', 0, 'wpcf7_contact_form', '', 0);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
